@@ -1,0 +1,21 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumbs {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.hero {
+  height: 313px;
+  background-image: url(https://via.placeholder.com/1000x313);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  display:flex; 
+  align-items: flex-end;
+}
