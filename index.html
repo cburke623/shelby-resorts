@@ -18,11 +18,42 @@
     </ul>
     <div class="hero"><h2>Bluebeard's Beach Club</h2></div>
 
-    <div>complex piece</div>
+    <div class="complex">
+      <div class="tabs"></div>
+      <div class="pricing">
+        <header>get instant quote</header>
+
+        <form action="">
+          <label for="unit">Unit</label>
+          <select name="unit" id="unit">
+            <option value="1">Bluebeard’s Studio</option>
+            <option value="2">Bluebeard’s Studio Loft</option>
+            <option value="3">Bluebeard’s 1 Bedroom</option>
+          </select>
+
+          <div class="date">
+            <div>
+              <label for="checkin">Check In</label>
+              <input type="date" name="checkin" id="checkin" />
+            </div>
+            <div>
+              <label for="checkout">Check Out</label>
+              <input type="date" name="checkout" id="checkout" />
+            </div>
+          </div>
+          <select name="guests" id="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </form>
+      </div>
+    </div>
 
     <h3>Units</h3>
+
     <hr />
-    <ul>
+    <ul class="units">
       <li>
         <img src="https://via.placeholder.com/150" alt="super alt tag" />
         <strong>Bluebeard's Studio</strong>
