@@ -12,6 +12,35 @@ h3 {
   line-height: 24px;
   font-weight: 100;
 }
+nav {
+  display: flex;
+  align-items: center;
+}
+nav .brand {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul:first-of-type {
+  display: flex;
+  gap: 8px;
+  flex-grow: 1;
+  justify-content: center;
+}
+nav ul:first-of-type li {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul:last-of-type {
+  display: flex;
+  gap: 8px;
+}
 
 .breadcrumbs {
   display: flex;
@@ -43,11 +72,22 @@ h3 {
   height: 212px;
 }
 .tabs {
-  border: 1px solid red;
+  padding: 50px 20px 0px;
   width: 66%;
 }
+.tabs ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+  padding-bottom: 10px;
+}
+.tabs address {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
 .pricing {
-  border: 1px solid blue;
+  border: 1px solid darkgrey;
   width: 33%;
   margin-top: -50px;
 }
@@ -57,12 +97,10 @@ h3 {
   text-align: center;
 }
 
-.tabs,
-.pricing {
-  height: 400px;
-}
 .complex {
   display: flex;
+}
+.center {
   width: 1000px;
   margin: 0 auto;
 }
@@ -78,17 +116,20 @@ form select {
   border: 1px solid #d1d3d4;
 }
 form input[type="date"] {
-  width: 100%;
+  width: calc(100% - 10px);
   height: 40px;
   border: 1px solid #d1d3d4;
+  padding-left: 10px;
+}
+form button {
+  height: 40px;
 }
 .date {
   display: flex;
   justify-content: space-between;
 }
-.date > div{
+.date > div {
   display: flex;
   flex-direction: column;
   width: 45%;
-
 }
