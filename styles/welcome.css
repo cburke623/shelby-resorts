@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+img {
+  width: 148px;
+  height: 148 px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+.paragraph {
+  margin: 0 auto;
+  width: 633px;
+  height: 444px;
+}
+.testimonial {
+  width: 796px;
+  margin: 0 auto;
+  height: 330px;
+  padding: 20px;
+}
+.words {
+  background-color: lightgray;
+}
+.right{
+    text-align: right;
+}
