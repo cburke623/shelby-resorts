@@ -27,6 +27,19 @@ img {
 .words {
   background-color: lightgray;
 }
-.right{
+.right`{
     text-align: right;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  .paragraph {
+    border: 1px solid blue;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .paragraph {
+    border: 1px solid red;
+  }
 }
